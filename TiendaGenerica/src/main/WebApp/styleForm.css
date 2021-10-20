@@ -1,0 +1,102 @@
+
+
+header{
+	background-color: #000;
+	color: #fff;
+	padding: 3rem 2rem;
+	font-size: 2rem;
+}
+
+body{
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-vector-abstract-futuristic-circuit-board-and-mesh-line-illustration-high-computer-image_458708.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+input{
+	font-size: 15px;
+	border-radius:15px;
+}
+
+button{
+	
+	font-size: 25px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+label{
+	float: right;
+}
+
+button:hover{
+	transition: background 0.3s ease;
+	background: #aaa;
+	cursor: pointer;
+}
+
+.t-container {
+  margin: 0 auto;
+  padding: 0 2em;
+  float:center;
+ 
+}
+.t-tabs, .t-contents {
+  list-style-type: none;
+  margin: 0;
+  font-size: 2em;
+  padding: 0 2% 0 2%;
+  box-sizing: border-box;
+}
+.t-tabs li {
+
+  color: #dedede;
+  padding: 0.5em 1.0em;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 0.7em;
+  background: #717171;
+  border-bottom: 0;
+  border-radius:15px;
+  min-width: 40px;
+  margin-right: 8px;
+  margin-bottom: 0 !important;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.t-tabs li:hover {
+  background-color: #545454;
+  color: #d2d2d2;
+}
+.t-tabs li.selected {
+  color: #458ace;
+  cursor: default;
+  background: #333;
+}
+.t-contents {
+  padding: 0 !important
+}
+.t-content {
+  padding: 0 1em;
+  background-color: #333;
+  box-sizing: border-box;
+/*   float: left; */
+  width: 100%;
+  color: #b7b7b7;
+  line-height: 1.3em;
+/*   text-align: justify; */
+  z-index: 1;
+  position: relative;
+  max-height: 0;
+  transition: max-height 0.5s ease 0s;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.t-content.selected {
+  max-height: 3000px;
+  transition: max-height 1.25s ease 0.5s;
+}
