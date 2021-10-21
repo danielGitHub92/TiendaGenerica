@@ -18,7 +18,7 @@ public class proveedorDAO {
 			 ResultSet res= consulta.executeQuery();
 			 while(res.next()) {
 				 clienteVO user=new clienteVO();
-				 user.setCedula(res.getLong("cedula_usuario"));
+				 user.setCedula(res.getLong("id_usuario"));
 				 user.setEmail(res.getString("email_usuario"));
 				 user.setNombre(res.getString("nombre_usuario"));
 				 user.setClave(res.getString("password"));
