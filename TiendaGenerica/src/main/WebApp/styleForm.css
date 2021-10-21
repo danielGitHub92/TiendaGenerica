@@ -21,6 +21,7 @@ input{
 	border-radius:15px;
 }
 
+
 button{
 	
 	font-size: 25px;
@@ -51,7 +52,7 @@ button:hover{
   padding: 0 2% 0 2%;
   box-sizing: border-box;
 }
-.t-tabs li {
+.t-tabs li a {
 
   color: #dedede;
   padding: 0.5em 1.0em;

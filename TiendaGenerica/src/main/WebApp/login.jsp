@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Computer Spare Parts </title>
+<title>Tienda Gaming </title>
 <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/266/950/png-transparent-information-technology-computer-icons-avid-cpu-angle-electronics-text.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
@@ -19,7 +19,7 @@
   <form onsubmit="return false;">
     <hgroup>
       <h1>Iniciar Sesión</h1>
-      <h3>Encontraras toda clase de repuestos para tu computador.</h3>
+      <h3>Encontraras todo para computadores y volverte un Profecional.</h3>
     </hgroup>
 		
 				<label for="name">Usuario:</label>

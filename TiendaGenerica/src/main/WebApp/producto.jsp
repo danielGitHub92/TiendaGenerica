@@ -3,16 +3,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="ISO-8859-1">
-<title>Producto</title>
+<title>Tienda Gaming </title>
+<link rel="shortcut icon" href="https://w7.pngwing.com/pngs/266/950/png-transparent-information-technology-computer-icons-avid-cpu-angle-electronics-text.png">
+<link rel="stylesheet" href="styleForm.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body>
-<form method="POST" action="./cargarArchivo" enctype="multipart/form-data">
- 	<label>Seleccione el archivo .csv </label><input type="file" name="archivoCSV" accept=".csv">
- 	<input type="submit" value="Enviar">
- </form>
+<center>
+<header>Tienda Gaming</header>
+ <br/> 
+		    <br/> 
 
+</center>
+
+		<div class="t-container">
+		  <ul class="t-tabs">  
+
+		     <li class="t-tab"><a href="cliente.jsp" style="text-decoration:none; color:white;" >Usuarios</a></li> 
+		    <li class="t-tab"><a href="Usuario.jsp" style="text-decoration:none; color:white;">Clientes</a></li> 
+		    <li class="t-tab"><a  href="provedor.jsp" style="text-decoration:none; color:white;">Proveedores</a></li> 
+		
+		    <li class="t-tab"><a  href="ventas.jsp" style="text-decoration:none; color:white;">Ventas</a></li>
+		    <li class="t-tab"><a href="reporte.jsp" style="text-decoration:none; color:white;">Reportes</a></li>
+		    <br/>
+		    <br/> 
+		    
+		   
+		  </ul>
+		</div>
+		   
+		<center>
+
+<div>
+<center>
+<form method="POST" action="./cargarArchivo" enctype="multipart/form-data">
+<table>
+ 	<tr>
+ 	<td><label>Seleccione el archivo .csv </label></td>
+ 	<td><input type="file" name="archivoCSV" accept=".csv"></td>
+ 	</tr>
+ 	<br/>
+ 	<tr>
+ 	<td></td>
+ 	<td><input type="submit" value="Cargar"></td>
+ 	</tr>
+ 	</table>
+ </form>
+</center>
 </body>
 </html>

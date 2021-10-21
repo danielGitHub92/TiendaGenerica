@@ -15,6 +15,7 @@ public class usuarioDAO {
 			ArrayList<usuarioVO> misusuarios=new  ArrayList<usuarioVO>();
 			Conexion conex=new Conexion();
 			try{
+				
 				 PreparedStatement consulta =conex.getConnection().prepareStatement("SELECT * FROM clientes");
 				 ResultSet res= consulta.executeQuery();
 				 while(res.next()) {

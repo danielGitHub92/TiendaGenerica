@@ -16,7 +16,7 @@ public class DAOproveedor {
 		 ResultSet res= consulta.executeQuery();
 		 while(res.next()) {
 			 provedorVO user=new provedorVO();
-			 user.setNit(res.getLong("nit_proveedor"));
+			 user.setNit(res.getLong("nitproveedor"));
 			 user.setCiudad(res.getString("ciudad_proveedor"));
 			 user.setDireccion(res.getString("direccion_proveedor"));
 			 user.setNombre(res.getString("nombre_proveedor"));
